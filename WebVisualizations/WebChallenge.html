@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Weather Report</title>
+  </head>
+ 
+  <body>
+    <!-- Create Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <!--Creates buttons and drop-down menu-->    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Maximum Temperature</a>
+                <a class="dropdown-item" href="#">Humidity</a>
+                <a class="dropdown-item" href="#">Cloudiness</a>
+                <a class="dropdown-item" href="#">Wind Speed</a>
+                </div>
+            </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Data <span class="sr-only">(current)</span></a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="row">
+        <div class="left col-lg-8 col-md-8 col-xs-12"></div>
+            <main>
+                <section class="posts">
+                    <article class="post">
+                        <h2>Summary: Latitude vs. X</h2>
+                        <img id="image" src="Fig1.png" class="rounded float-left" alt="Latitude vs. Longitude">
+                        <p>The purpose of this project is to analyze how weather changes as you get closer to the equator. 
+                            To accomplish this analysis, we first pulled data from the OpenWeather API to assemble a dataset on over 500 cities.
+                            <br>
+                            After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at included:
+                            temperature, cloudiness, wind speed, and humidity. This site provides the sourcedata and visualizations created as part of the analysis
+                            as well as explanations and descriptions of any trends and correlations witnessed.
+                        </p>
+                    </article>
+                </section>
+            </main>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12">
+            <h2>Visualizations</h2>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="thumbnail">
+                        <a ref="max_temp.html"><img src="max_temp.png" class="img-responsive" alt="Latitude vs Temperature"</a>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <a href="humidity.html"><img src="Humidity.png" class="img-responsive" alt="Latitude vs Humnidity"></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <a href="cloudiness.html"><img src="Cloudiness.png" class="img-responsive" alt="Latitude vs Cloudiness"></a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <a href="wind_speed.html"><img src="Wind Speed.png" class="img-responsive" alt="Latitude vs Wind Speed"></a>
+
+                        </div>
+                </div>
+            </div>
+        
+        </div>
+        <div<div class="clearfix"></div>
+    </header>
+
+
+    </div>
+</div>
+
+</div>
+
+</div>
+</body>
+
+<!-- Footer-->
+<div class="container-fluid"> 
+<footer style="background-color: lightblue">
+</footer>
+  </body>
+</html>
